@@ -1,42 +1,48 @@
-# 🛡️ Network Security & Penetration Testing Lab
+# 🛡️ Network Security and Penetration Testing Lab 🧪
 
-> A modular, open-source, self-hosted penetration testing lab environment to learn ethical hacking, exploit development, privilege escalation, and red team techniques — using VirtualBox, Kali Linux, Metasploitable2, and Docker.
-
----
-
-## 📚 Overview
-
-This lab is for:
-- Students learning ethical hacking
-- Professionals prepping for OSCP/PNPT/CRTP
-- Trainers and educators in cyber defense/offense
-
-It includes exercises in:
-- Recon & Scanning
-- Exploitation
-- Web Hacking (OWASP Top 10)
-- Post-Exploitation
-- Privilege Escalation (Linux & Windows)
-- Custom tools and scripts
+A hands-on, beginner-friendly cybersecurity lab environment for learning ethical hacking, penetration testing, and network security using open-source tools and custom scripts — all deployable in VirtualBox or Docker. Designed for OSCP prep, CTF training, and real-world red team skill building.
 
 ---
 
-## 🧰 Prerequisites
+## 🚀 Badges
 
-| Component     | Details                        |
-|---------------|-------------------------------|
-| Host OS       | Windows / Linux / macOS       |
-| Virtualization| Oracle VirtualBox             |
-| VMs Required  | Kali Linux, Metasploitable2   |
-| Optional      | Docker (for DVWA, Juice Shop) |
-| Tools         | Nmap, Metasploit, Wireshark, Gobuster, Python3 |
+![Language](https://img.shields.io/badge/language-bash%2Fpython-green)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Stars](https://img.shields.io/github/stars/yourusername/projectname?style=social)
+![Forks](https://img.shields.io/github/forks/yourusername/projectname?style=social)
 
 ---
 
-## ⚙️ Installation & Setup
+## ✅ Features
 
-### 📦 1. Clone the Repository
+- [x] Fully isolated pentesting lab setup using Kali & Metasploitable2
+- [x] Vulnerability scanning, brute force, sniffing & exploit modules
+- [x] Custom scripts (e.g. reverse shell generator, ARP spoofing)
+- [x] Cheatsheets and interview Q&A for quick learning
+- [x] Beginner-friendly setup with detailed documentation
+- [x] GitHub Pages-compatible for hosted wiki
+
+---
+
+## 💻 Prerequisites
+
+| Component        | Requirement                            |
+|------------------|-----------------------------------------|
+| Host OS          | Windows / Linux / macOS (64-bit)       |
+| RAM              | Minimum 8 GB (16 GB recommended)       |
+| Virtualization   | VirtualBox or VMware Workstation        |
+| Guest VMs        | Kali Linux, Metasploitable2             |
+| Disk Space       | At least 60 GB free                    |
+| Internet         | Required for initial downloads only     |
+
+> ⚠️ Ensure virtualization is enabled in BIOS (Intel VT-x / AMD-V)
+
+---
+
+## 🛠️ Installation
+
+### 🔧 1. Clone the Repository
 
 ```bash
-git clone https://github.com/SudoXploit/Network-Security-and-Penetration-Testing-Lab.git
+git clone https://github.com/yourusername/Network-Security-and-Penetration-Testing-Lab.git
 cd Network-Security-and-Penetration-Testing-Lab
