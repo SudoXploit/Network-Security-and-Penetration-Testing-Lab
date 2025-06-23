@@ -44,5 +44,5 @@ A hands-on, beginner-friendly cybersecurity lab environment for learning ethical
 ### 🔧 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Network-Security-and-Penetration-Testing-Lab.git
+git clone https://github.com/SudoXploit/Network-Security-and-Penetration-Testing-Lab.git
 cd Network-Security-and-Penetration-Testing-Lab
