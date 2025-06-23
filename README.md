@@ -38,5 +38,5 @@ It includes exercises in:
 ### 📦 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Network-Security-and-Penetration-Testing-Lab.git
+git clone https://github.com/SudoXploit/Network-Security-and-Penetration-Testing-Lab.git
 cd Network-Security-and-Penetration-Testing-Lab
